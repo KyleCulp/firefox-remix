@@ -1,37 +1,14 @@
 {
-  "name": "firefox-devtools-theme",
+  "name": "firefox-remix-theme",
   "displayName": "Firefox Theme",
-  "description": "A VS Code theme based on the Mozilla Firefox' developer tools colors",
-  "version": "4.10.1",
-  "publisher": "Heron",
-  "author": {
-    "name": "Heron Silva",
-    "email": "heron.code@outlook.com"
-  },
+  "description": "A remix of the Firefox Theme for vscode. Personal theme",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/firefox-theme/visual-studio-code"
+    "url": "https://github.com/kyleculp/firefox-remix"
   },
-  "icon": "images/icon.png",
-  "badges": [
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/version/Heron.firefox-devtools-theme.svg?label=Release&style=flat-square&colorA=434346&colorB=B98EFF",
-      "description": "Current version",
-      "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/Heron.firefox-devtools-theme.svg?label=Installs&style=flat-square&colorA=434346&colorB=B98EFF",
-      "description": "Installs",
-      "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme"
-    },
-    {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/Heron.firefox-devtools-theme.svg?label=Rating&style=flat-square&colorA=434346&colorB=B98EFF",
-      "description": "Rating",
-      "href": "https://marketplace.visualstudio.com/items?itemName=Heron.firefox-devtools-theme#review-details"
-    }
-  ],
   "engines": {
-    "vscode": "^1.10.0"
+    "vscode": "^1.41.1"
   },
   "categories": [
     "Themes"
@@ -39,15 +16,21 @@
   "contributes": {
     "themes": [
       {
-        "label": "Firefox Dark",
+        "label": "Firefox Remix Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/dark.json"
       },
       {
-        "label": "Firefox Light",
+        "label": "Firefox Remix Light",
         "uiTheme": "vs",
         "path": "./themes/light.json"
       }
     ]
+  },
+  "dependencies": {
+    "jsonc": "^2.0.0",
+    "strip-json-comments": "^3.0.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
   }
 }
