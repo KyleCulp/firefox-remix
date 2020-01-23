@@ -380,7 +380,7 @@
       "name": "JSON String",
       "scope": ["string.quoted.double.json"],
       "settings": {
-        "foreground": "#FF7DE9"
+        "foreground": "#FF80F4"
       }
     },
     {
